@@ -70,6 +70,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'blog_project.wsgi.application'
 
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
 
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
